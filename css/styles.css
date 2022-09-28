@@ -18,6 +18,8 @@ body {
   padding: 0;
   width: inherit;
   height: inherit;
+  font-size: 0.9375rem;
+  background-color: hsl(0, 0%, 95%);
 }
 h1,
 h2,
@@ -25,8 +27,15 @@ h3 {
   font-weight: 700;
   margin: 0;
 }
+h1,
+h2,
+h3,
+button {
+  /* color: hsl(0, 0%, 95%); */
+}
 p {
   margin: 0;
+  /* color: hsla(0, 0%, 100%, 0.75); */
 }
 
 /* -----------------------------main content styles--------------------------- */
@@ -55,7 +64,7 @@ p {
 
 /* -----------------------------media quiries--------------------------- */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   /* for desktop */
 }
 
@@ -72,12 +81,6 @@ Very dark cyan: hsl(179, 100%, 13%)
 
 Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
 Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
-
-## Typography
-
-### Body Copy
-
-- Font size: 15px
 
 ### Font
 
